@@ -5,22 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
-        Title="Ratón y Teclado" Height="411.126" Width="571.466" Icon="ratonTeclado.ico"
+        Title="Ratón y Teclado" Height="349.126" Width="487.466" Icon="ratonTeclado.ico"
         MouseDown="ClicksRaton" MouseUp="ClicksRaton">
     <Grid>
-        <TextBox x:Name="MayusculasTextBox" HorizontalAlignment="Left" Height="23" Margin="81,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="MouseEnter_Todos" MouseLeave="LimpiaFoco_MouseLeave" GotFocus="TextBoxes_GotFocus"/>
-        <TextBox x:Name="AyudaTextBox" HorizontalAlignment="Left" Height="23" Margin="81,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="MouseEnter_Todos" MouseLeave="LimpiaFoco_MouseLeave" GotFocus="TextBoxes_GotFocus" KeyDown="AyudaTextBox_KeyDown"/>
-        <TextBox x:Name="SinVocalesTextBox" HorizontalAlignment="Left" Height="23" Margin="81,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="MouseEnter_Todos" MouseLeave="LimpiaFoco_MouseLeave" GotFocus="TextBoxes_GotFocus" KeyDown="SinVocalesTextBox_KeyDown"/>
-        <TextBlock x:Name="TextBox1TextBlock" HorizontalAlignment="Left" Margin="81,111,0,0" TextWrapping="Wrap" Text="TextBox 1" VerticalAlignment="Top"/>
-        <TextBlock x:Name="TextBox2TextBlock" HorizontalAlignment="Left" Margin="81,185,0,0" TextWrapping="Wrap" Text="TextBox 2" VerticalAlignment="Top"/>
-        <TextBlock x:Name="TextBox3TextBlock" HorizontalAlignment="Left" Margin="81,253,0,0" TextWrapping="Wrap" Text="TextBox 3" VerticalAlignment="Top"/>
-        <TextBox x:Name="FocoTextBox" HorizontalAlignment="Left" Height="23" Margin="338,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotFocus="TextBoxes_GotFocus"/>
-        <TextBlock HorizontalAlignment="Left" Margin="338,115,0,0" TextWrapping="Wrap" Text="Foco" VerticalAlignment="Top"/>
-        <TextBox x:Name="RatonSobreTextBox" HorizontalAlignment="Left" Height="23" Margin="338,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotFocus="TextBoxes_GotFocus"/>
-        <TextBlock HorizontalAlignment="Left" Margin="338,185,0,0" TextWrapping="Wrap" Text="Ratón sobre" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="311,270,0,0" TextWrapping="Wrap" Text="Botones" VerticalAlignment="Top" Width="53"/>
-        <TextBox x:Name="BotonIzquierdoTextBox" HorizontalAlignment="Left" Height="23" Margin="369,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="23"/>
-        <TextBox x:Name="BotonDerechoTextBox" HorizontalAlignment="Left" Height="23" Margin="407,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="23"/>
+        <TextBox x:Name="MayusculasTextBox" HorizontalAlignment="Left" Height="23" Margin="53,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="MouseEnter_Todos" MouseLeave="LimpiaFoco_MouseLeave" GotFocus="TextBoxes_GotFocus"/>
+        <TextBox x:Name="AyudaTextBox" HorizontalAlignment="Left" Height="23" Margin="53,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="MouseEnter_Todos" MouseLeave="LimpiaFoco_MouseLeave" GotFocus="TextBoxes_GotFocus" KeyDown="AyudaTextBox_KeyDown"/>
+        <TextBox x:Name="SinVocalesTextBox" HorizontalAlignment="Left" Height="23" Margin="53,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="MouseEnter_Todos" MouseLeave="LimpiaFoco_MouseLeave" GotFocus="TextBoxes_GotFocus" KeyDown="SinVocalesTextBox_KeyDown"/>
+        <TextBlock x:Name="TextBox1TextBlock" HorizontalAlignment="Left" Margin="53,70,0,0" TextWrapping="Wrap" Text="TextBox 1" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBox2TextBlock" HorizontalAlignment="Left" Margin="53,144,0,0" TextWrapping="Wrap" Text="TextBox 2" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBox3TextBlock" HorizontalAlignment="Left" Margin="53,212,0,0" TextWrapping="Wrap" Text="TextBox 3" VerticalAlignment="Top"/>
+        <TextBox x:Name="FocoTextBox" HorizontalAlignment="Left" Height="23" Margin="287,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotFocus="TextBoxes_GotFocus"/>
+        <TextBlock HorizontalAlignment="Left" Margin="287,70,0,0" TextWrapping="Wrap" Text="Foco" VerticalAlignment="Top"/>
+        <TextBox x:Name="RatonSobreTextBox" HorizontalAlignment="Left" Height="23" Margin="287,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotFocus="TextBoxes_GotFocus"/>
+        <TextBlock HorizontalAlignment="Left" Margin="287,144,0,0" TextWrapping="Wrap" Text="Ratón sobre" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="297,236,0,0" TextWrapping="Wrap" Text="Botones" VerticalAlignment="Top" Width="53"/>
+        <TextBox x:Name="BotonIzquierdoTextBox" HorizontalAlignment="Left" Height="23" Margin="354,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="23" GotFocus="TextBoxes_GotFocus"/>
+        <TextBox x:Name="BotonDerechoTextBox" HorizontalAlignment="Left" Height="23" Margin="384,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="23" GotFocus="TextBoxes_GotFocus"/>
 
 
 
