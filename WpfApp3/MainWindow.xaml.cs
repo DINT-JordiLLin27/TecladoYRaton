@@ -115,23 +115,23 @@ namespace WpfApp3
             switch (e.Key)
             {
                 case Key.A:
-
+                    e.Handled = true;
                     break;
 
                 case Key.E:
-                    
+                    e.Handled = true;
                     break;
 
                 case Key.I:
-                    
+                    e.Handled = true;
                     break;
 
                 case Key.O:
-                    
+                    e.Handled = true;
                     break;
 
                 case Key.U:
-                    
+                    e.Handled = true;
                     break;
 
                 default:
