@@ -70,7 +70,7 @@ namespace WpfApp3
         private void TextBoxes_GotFocus(object sender, RoutedEventArgs e)
         {
             CambiaTextoFocoTextBox(sender);
-            
+
         }
 
         //Método que cambia el texto de 'FocoTextBox' según el objeto.
@@ -110,26 +110,15 @@ namespace WpfApp3
             RatonSobreTextBox.Text = "";
         }
 
+        //Evento que controla las pulsaciones de teclado y si es una vocal no se escribe.
         private void SinVocalesTextBox_KeyDown(object sender, KeyEventArgs e)
         {
             switch (e.Key)
             {
                 case Key.A:
-                    e.Handled = true;
-                    break;
-
                 case Key.E:
-                    e.Handled = true;
-                    break;
-
                 case Key.I:
-                    e.Handled = true;
-                    break;
-
                 case Key.O:
-                    e.Handled = true;
-                    break;
-
                 case Key.U:
                     e.Handled = true;
                     break;
